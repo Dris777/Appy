@@ -1,0 +1,48 @@
+.example-card {
+width: 450px;
+display: flex;
+  padding-bottom: 0px;
+  color: #f5f6f8;
+  background-color: #3b3e43;
+
+  .subtitle{
+    color: #ebeef3;
+
+  }
+  .card-title{
+    color: #74777c;
+
+  }
+  .subtitle--green:before{
+    content: '';
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+
+  }
+  .subtitle--red:before{
+    content: '';
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .subtitle--blue:before{
+    content: '';
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+}
+.img{
+  max-width: 200px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+
